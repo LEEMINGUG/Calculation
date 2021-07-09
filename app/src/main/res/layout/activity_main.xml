@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img"
+    android:background="@color/btnBack"
     tools:context=".MainActivity">
 
   <TextView
@@ -432,15 +432,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:orientation="horizontal"
-      app:layout_constraintGuide_begin="642dp" />
-
-  <ImageView
-      android:id="@+id/imageView3"
-      android:layout_width="137dp"
-      android:layout_height="101dp"
-      app:srcCompat="@drawable/tenor"
-      tools:layout_editor_absoluteX="11dp"
-      tools:layout_editor_absoluteY="19dp" />
+      app:layout_constraintGuide_end="89dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

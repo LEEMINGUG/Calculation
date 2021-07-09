@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         actionBar?.hide()
         setContentView(binding.root)
         claculationEvent(binding,this)
-        Glide.with(this).load(R.drawable.tenor).into(binding.imageView3)
+//        Glide.with(this).load(R.drawable.tenor).into(binding.imageView3)
     }
 }
 
@@ -38,11 +38,11 @@ fun claculationEvent(binding:ActivityMainBinding,activity:Activity){
 
     binding.btn5.setOnClickListener {
         updateData(binding,"1")
-        Glide.with(activity).load(R.drawable.tenor).into(binding.imageView3)
+//        Glide.with(activity).load(R.drawable.tenor).into(binding.imageView3)
     }
     binding.btn9.setOnClickListener {
         updateData(binding,"8")
-        Glide.with(activity).load(R.drawable.good).into(binding.imageView3)
+//        Glide.with(activity).load(R.drawable.good).into(binding.imageView3)
     }
     binding.btn10.setOnClickListener {
         updateData(binding,"5")
@@ -158,7 +158,7 @@ fun claculationEvent(binding:ActivityMainBinding,activity:Activity){
         strnum = binding.Result.text.toString()
         binding.subesult.text = strnum
         var tempNUm = countMatches(strnum,"-")
-        Glide.with(activity).load(R.drawable.result).into(binding.imageView3)
+//        Glide.with(activity).load(R.drawable.result).into(binding.imageView3)
         // - 0개 또는 1개 인경우
         if (tempNUm ==0 || tempNUm == 1 ){
             // +,-,*,/ 계산
